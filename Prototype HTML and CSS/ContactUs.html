@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <title>ACA Banking</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+	
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" >ACA Banking</a>
+    </div>
+    <ul class="nav navbar-nav"> 
+      <li ><a href="index.html">Home</a></li>  
+	  <li ><a href="About.html">About</a></li>
+      <li class="active"><a>Contact Us</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+       <button  type="button" class="btn btn-default btn-sm navbar-btn " data-toggle="modal" data-target="#myModal"> <span class="glyphicon glyphicon-log-in"></span> Login</button>
+    </ul>
+  </div>
+  
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login In</h4>
+        </div>
+        <div class="modal-body">
+           <p>Access Your Future</p>
+  <form>
+ 
+  <div class="input-group col-sm-6 ">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-king"></i></span>
+    <input id="Unique Id" type="text" class="form-control" name="Unique Id" placeholder="Unique Id">
+  </div>
+  
+  <div class="input-group col-sm-6 ">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div>
+  <div class="input-group col-sm-6 ">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body>
+<div class ="jumbotron text-center">
+<h1>Contact Us</h1>
+<legend style="font-weight:bold;">Here to solve your worries</legend>
+</div>
+<div class="container">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Republic of Ireland</option>
+      <option value="canada">UK</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+
+</body>
+
+
+</body>
+<br>
+<br>
+<footer class="footer">
+      <div class="container-fluid text-center " class="navbar navbar-inverse">
+        <span class="text-muted" style= "color:#76787c" >@ACA Banking Ltd</span>
+      </div>
+    </footer>
+
+</html>
