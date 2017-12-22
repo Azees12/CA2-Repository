@@ -1,0 +1,4 @@
+Contributes
+Colm Dunne == HomeController Classes / Html and CSS Design 34% of overall work
+Andrei Ciobrca == Html and CSS Design / Java Class and logic 32% of overall work
+Azees Fetuga == Html and CSS Desing / Application logic and implementation 34%
